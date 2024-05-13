@@ -31,7 +31,7 @@ CLASSIFIERS = [
     "Programming Language :: Python :: Implementation :: PyPy",
     "Topic :: Software Development :: Libraries :: Python Modules",
 ]
-INSTALL_REQUIRES = ['argparse', 'robotpy-cppheaderparser', 'jinja2']
+INSTALL_REQUIRES = ['argparse', 'robotpy-cppheaderparser @ git+https://vcpkg_user:glpat-GbxcSsAPDdC8VxeFXZZc@git.moduleus.com/common/sw/3rdparty/robotpy-cppheaderparser.git@fix', 'jinja2']
 INSTALL_REQUIRES += ['sphinx', ]
 SETUP_REQUIRES = ['sphinx', 'numpydoc']
 ###################################################################
